@@ -12,8 +12,9 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Rahul Mandyal",
-  description: "Full-Stack Software Engineer .",
+  title: "Rahul Thakur Himachali",
+  description:
+    "React & React Native developer building web and mobile apps with Expo. Cross-platform apps from one codebase.",
 };
 
 export default function RootLayout({

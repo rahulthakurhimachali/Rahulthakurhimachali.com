@@ -8,12 +8,12 @@ import {
 export const SOCIALS = [
   {
     label: "GitHub",
-    href: "https://github.com/RahulMandyal1",
+    href: "https://github.com/rahulthakurhimachali",
     icon: GitHubIcon,
   },
   {
     label: "X",
-    href: "https://x.com/RahulMandyal4",
+    href: "https://x.com/rahul_himachali",
     icon: XIcon,
   },
   {
@@ -23,7 +23,7 @@ export const SOCIALS = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/thakur_rahul079/",
+    href: "https://www.instagram.com/rahulthakurhimachali/",
     icon: InstagramIcon,
   },
 ];

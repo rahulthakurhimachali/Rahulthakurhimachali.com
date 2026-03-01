@@ -62,6 +62,7 @@ export function Header() {
               </div>
 
               <div className="flex items-center gap-4">
+                {/* Resume button - enable later when link is ready
                 <a
                   href="https://drive.google.com/file/d/1IdWE7zYkyCawQmUsVg7M2i37bYmICZDn/view"
                   target="_blank"
@@ -70,6 +71,7 @@ export function Header() {
                 >
                   Resume
                 </a>
+                */}
                 <ThemeToggle />
               </div>
             </div>

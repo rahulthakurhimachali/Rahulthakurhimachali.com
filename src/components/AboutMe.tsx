@@ -6,10 +6,11 @@ const AboutMe = () => {
   return (
     <section className="mb-5 text-gray-900 dark:text-gray-100">
       <Avatar />
-      <h1 className="text-2xl font-bold">Rahul Thakur</h1>
+      <h1 className="text-2xl font-bold">Rahul Thakur Himachali</h1>
       <p className="mt-4 mb-4">
-        Fullstack engineer building web and mobile apps with JavaScript. Shipped
-        products used by over a million users. Open source contributor.
+        React & React Native developer building web and mobile apps with Expo.
+        Cross-platform from one codebase. Shipped apps used by over a million
+        users.
       </p>
       <SocialLinksCard />
     </section>
