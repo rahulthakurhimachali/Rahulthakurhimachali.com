@@ -41,6 +41,9 @@ export const metadata: Metadata = {
       "React & React Native developer building web and mobile apps with Expo. Cross-platform from one codebase. Shipped apps used by over a million users.",
     images: ["/_static/og-image.jpg"],
   },
+  verification: {
+    google: "I5iMRHwA6z--9N3nqtwecJYMmt-l29_lTgunkff7ssA",
+  },
 };
 
 export default function RootLayout({
