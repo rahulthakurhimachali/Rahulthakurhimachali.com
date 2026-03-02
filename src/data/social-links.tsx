@@ -18,7 +18,7 @@ export const SOCIALS = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/rahul-thakur-0b2942213/",
+    href: "https://www.linkedin.com/in/rahulthakurhimachali/",
     icon: LinkedInIcon,
   },
   {
