@@ -11,10 +11,36 @@ const space_grotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
 });
 
+const siteUrl = "https://www.rahulthakurhimachali.com";
+
 export const metadata: Metadata = {
   title: "Rahul Thakur Himachali",
   description:
-    "React & React Native developer building web and mobile apps with Expo. Cross-platform apps from one codebase.",
+    "React & React Native developer building web and mobile apps with Expo. Cross-platform from one codebase. Shipped apps used by over a million users.",
+  metadataBase: new URL(siteUrl),
+  openGraph: {
+    title: "Rahul Thakur Himachali",
+    description:
+      "React & React Native developer building web and mobile apps with Expo. Cross-platform from one codebase. Shipped apps used by over a million users.",
+    url: siteUrl,
+    siteName: "Rahul Thakur Himachali",
+    images: [
+      {
+        url: "/_static/og-image.jpg",
+        width: 773,
+        height: 1024,
+        alt: "Rahul Thakur Himachali",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rahul Thakur Himachali",
+    description:
+      "React & React Native developer building web and mobile apps with Expo. Cross-platform from one codebase. Shipped apps used by over a million users.",
+    images: ["/_static/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
