@@ -39,7 +39,15 @@ export default function OpenSource() {
 
   return (
     <div className="mb-8">
-      <h2 className="mb-6 text-2xl font-bold">Open Source</h2>
+      <div className="flex items-center justify-between mb-6">
+        <h2 className="text-2xl font-bold">Open Source</h2>
+        <Link
+          href="/contributions"
+          className="text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition"
+        >
+          View Contributions &rarr;
+        </Link>
+      </div>
 
       {packages.length > 0 && (
         <div className="mb-6">

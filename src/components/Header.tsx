@@ -13,6 +13,9 @@ const navItems = {
   "/posts": {
     name: "posts",
   },
+  "/contributions": {
+    name: "open source",
+  },
 };
 
 export function Header() {
